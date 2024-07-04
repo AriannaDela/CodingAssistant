@@ -1,1 +1,1 @@
-# CodingAssistant
+# LLM University Project monorepo

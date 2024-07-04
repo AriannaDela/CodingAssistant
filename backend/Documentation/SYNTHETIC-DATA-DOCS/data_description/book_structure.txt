@@ -1,0 +1,11 @@
+Example of data structure:
+A book record includes:
+- book_id: String (example: "B001")
+- title: String (example: "The Great Gatsby")
+- author: String (example: "F. Scott Fitzgerald")
+- genre: String (example: "Fiction")
+- published_date: String (example: "1925-04-10")
+- price: Float (example: 15.00)
+- currency: String (example: "USD")
+- pages: Integer (example: 180)
+- publisher: String (example: "Charles Scribner's Sons")

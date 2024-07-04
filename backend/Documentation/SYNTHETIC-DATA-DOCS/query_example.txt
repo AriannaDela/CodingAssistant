@@ -1,0 +1,1 @@
+Customer profile with its purchase history. The items that are purchased are bolts only.

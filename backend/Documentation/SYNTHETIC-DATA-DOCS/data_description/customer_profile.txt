@@ -1,0 +1,10 @@
+Example of data structure:
+A customer profile includes:
+- name: String (example: "John Doe")
+- age: Integer (example: 30)
+- gender: String (example: "Male" or "Female")
+- email: String (example: "john.doe@example.com")
+- phone: String (example: "+1-555-1234")
+- address: String (example: "123 Main St, Springfield, IL")
+- preferences: List of Strings (example: ["Apparel", "Footwear"])
+- newsletter_subscribed: Boolean (example: true)

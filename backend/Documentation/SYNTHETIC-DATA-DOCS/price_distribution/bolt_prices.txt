@@ -1,0 +1,37 @@
+These are price distribution for bolts:
+Item Name: Bolt
+Price Distribution:
+  Diameter:
+    - Diameter: 6mm
+      Price Range: $0.10 - $0.20
+    - Diameter: 8mm
+      Price Range: $0.15 - $0.25
+    - Diameter: 10mm
+      Price Range: $0.20 - $0.35
+    - Diameter: 12mm
+      Price Range: $0.30 - $0.50
+  Length:
+    - Length: 20mm
+      Price Range: $0.05 - $0.10
+    - Length: 30mm
+      Price Range: $0.10 - $0.20
+    - Length: 40mm
+      Price Range: $0.15 - $0.25
+    - Length: 50mm
+      Price Range: $0.20 - $0.30
+  Material:
+    - Material: Steel
+      Price Range: $0.10 - $0.20
+    - Material: Stainless Steel
+      Price Range: $0.20 - $0.40
+    - Material: Titanium
+      Price Range: $0.50 - $1.00
+  Grade:
+    - Grade: 5.8
+      Price Range: $0.10 - $0.15
+    - Grade: 8.8
+      Price Range: $0.15 - $0.25
+    - Grade: 10.9
+      Price Range: $0.25 - $0.35
+    - Grade: 12.9
+      Price Range: $0.30 - $0.45

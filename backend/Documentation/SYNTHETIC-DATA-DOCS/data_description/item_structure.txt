@@ -1,0 +1,7 @@
+Example of data structure:
+An item includes:
+- product_id: String (example: "P001")
+- name: String (example: "Running Shoes")
+- category: String (example: "Footwear")
+- price: Float (example: 75.00)
+- currency: String (example: "USD")

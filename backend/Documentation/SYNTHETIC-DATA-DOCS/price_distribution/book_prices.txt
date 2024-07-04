@@ -1,0 +1,46 @@
+These are price distribution for books:
+Item Name: Book
+Price Distribution:
+  Genre:
+    - Genre: Fiction
+      Price Range: $10.00 - $20.00
+    - Genre: Non-Fiction
+      Price Range: $15.00 - $30.00
+    - Genre: Science Fiction
+      Price Range: $12.00 - $25.00
+    - Genre: Fantasy
+      Price Range: $10.00 - $22.00
+  Format:
+    - Format: Hardcover
+      Price Range: $20.00 - $35.00
+    - Format: Paperback
+      Price Range: $10.00 - $20.00
+    - Format: eBook
+      Price Range: $5.00 - $15.00
+    - Format: Audiobook
+      Price Range: $15.00 - $25.00
+  Length:
+    - Length: Short (<200 pages)
+      Price Range: $5.00 - $10.00
+    - Length: Medium (200-400 pages)
+      Price Range: $10.00 - $20.00
+    - Length: Long (>400 pages)
+      Price Range: $15.00 - $30.00
+  Publication Year:
+    - Year: Before 2000
+      Price Range: $5.00 - $15.00
+    - Year: 2000-2010
+      Price Range: $10.00 - $20.00
+    - Year: 2011-2020
+      Price Range: $15.00 - $25.00
+    - Year: 2021 and later
+      Price Range: $20.00 - $35.00
+  Author Popularity:
+    - Popularity: Unknown
+      Price Range: $5.00 - $10.00
+    - Popularity: Moderately Known
+      Price Range: $10.00 - $20.00
+    - Popularity: Well-Known
+      Price Range: $20.00 - $30.00
+    - Popularity: Bestselling
+      Price Range: $25.00 - $40.00
