@@ -37,7 +37,6 @@ async def unit_test_load_documents(files: list[UploadFile]):
 @app.post("/unit-test/generate-tests")
 async def unit_test_generate_tests(files: list[UploadFile]):
     content_response = await generate_tests_unit_test_to_vectordb(files)
-    # Do shit
     return {
         "content": content_response
     }
@@ -45,7 +44,6 @@ async def unit_test_generate_tests(files: list[UploadFile]):
 
 @app.post("/synthetic-data/generate")
 def generate_unit_test():
-    # Do shit
     return {
         "content": str
     }

@@ -10,28 +10,14 @@ from utils import delete_collection_chromadb, init_collection_chromadb, load_fil
 async def load_documents_synthetic_data_to_vectordb(files: list[UploadFile]):
     delete_collection_chromadb(name="docs_synthetic_data")
 
-    # Initialize the ChromaDB collection
     docs_collection = init_collection_chromadb(name="docs_synthetic_data")
 
-    # Load the documents
     documents = await load_files_from_uploadfile(files)
     print("Loaded documents: " + str(len(documents)))
 
-    # Create an Ollama embeddings object
     embeddings = OllamaEmbeddings(model="llama3")
 
-    # Store the documents in the collection
     docs_collection = store_documents(documents=documents, collection=docs_collection, embeddings=embeddings)
-    #
-    # prompt = f"get all documents"
-    # embedding_query = embeddings.embed_query(prompt)
-    #
-    # results = docs_collection.query(
-    #     query_embeddings=[embedding_query],
-    #     n_results=2
-    # )
-
-    # print("Results: " + str(results))
 
 
 async def generate_data_synthetic_data_to_vectordb(query_string: str):

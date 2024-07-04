@@ -1,0 +1,66 @@
+Certainly! Below is the documentation for the `WordCount` Java class, explaining its functionality, methods, and usage:
+`WordCount` Class Documentation
+
+The `WordCount` class provides methods to count and display words from text files using both an ArrayList and a Map data structure. It includes functionality to perform experiments on file processing times and allows users to select files via a GUI interface.
+
+Class Structure Overview:
+- Main Method:
+  - `public static void main(String[] args)`
+    - Entry point of the program that calls `countWordsViaGUI()` to initiate word counting via GUI.
+
+- Methods:
+1. `countWordsViaGUI()`
+   - Allows users to pick files via a GUI interface to count words.
+   - Utilizes `countWordsWithArrayList()` to count words using an ArrayList.
+   - Displays timing information and allows multiple file selections.
+
+2. `countWordsWithArrayList(Scanner fileScanner)`
+   - Counts distinct words in a file using an ArrayList.
+   - Returns an `ArrayList<String>` containing all words in the file.
+
+3. `countWordsWithMap(Scanner fileScanner)`
+   - Counts distinct words and their frequencies using a Map.
+   - Returns a `Map<String, Integer>` where keys are words and values are their counts.
+
+4. `showWords(ArrayList<String> words, int numWordsToShow)`
+   - Displays a specified number of words from an ArrayList.
+
+5. `showWords(Map<String, Integer> words, int numWordsToShow)`
+   - Placeholder method intended to display words and their frequencies from a Map.
+
+6. `performExp()`
+   - Performs experiments on files to determine average time to count words using both ArrayList and Map.
+
+7. `timingExpWithMap(String[] titles, int numExp)`
+   - Measures average time to count words using a Map for multiple files and experiments.
+
+8. `timingExpWithArrayList(String[] titles, int numExp)`
+   - Measures average time to count words using an ArrayList for multiple files and experiments.
+
+9. `setLookAndFeel()`
+   - Attempts to set the GUI look and feel to match the system's native look.
+
+10. `getFile()`
+    - Opens a GUI window (`JFileChooser`) to allow users to select a file.
+    - Returns the selected `File` object or `null` if no file is chosen.
+
+Usage:
+- Running the Program:
+  - Execute the `main` method to start the program.
+  - Follow the on-screen prompts to select files and analyze word counts.
+
+- Experimentation:
+  - The class includes methods (`performExp`, `timingExpWithMap`, `timingExpWithArrayList`) to measure and compare word counting performance across different file sizes and types.
+
+- GUI Interaction:
+  - Users interact with the program through a GUI interface (`JFileChooser`) to select files for word counting operations.
+
+Dependencies:
+- Java Libraries:
+  - `java.io.File`, `java.io.FileNotFoundException`: For file handling operations.
+  - `java.util.ArrayList`, `java.util.HashMap`: For data storage and manipulation.
+  - `java.util.Scanner`: For reading files and user input.
+  - `javax.swing.JFileChooser`, `javax.swing.UIManager`: For GUI-based file selection and look and feel settings.
+
+Error Handling:
+- The program handles `FileNotFoundException` when attempting to read files, displaying an error message and exiting gracefully.

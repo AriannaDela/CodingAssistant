@@ -17,7 +17,6 @@ def get_collection_chromadb(name: str) -> chromadb.Collection:
     chromadb_client = chromadb.Client()
     if chromadb_client:
         print("ChromaDB client connection successful.")
-
     try:
         return chromadb_client.get_collection(name=name)
     except:
@@ -62,7 +61,6 @@ async def load_files_from_uploadfile(files: List[UploadFile]) -> List[str]:
 def store_documents(documents, collection, embeddings):
     for doc in documents:
         embedding = embeddings.embed_query(doc)
-        # Add the embedding and its corresponding text to the collection
         id_doc = documents.index(doc)
         collection.add(
             ids=[str(id_doc)],
