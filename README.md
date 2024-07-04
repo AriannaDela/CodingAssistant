@@ -1,5 +1,4 @@
-# Coding Assistant monorepo
-# Applicazione Web per Supporto agli Sviluppatori
+# Coding Assistant: Applicazione Web per Supporto agli Sviluppatori
 
 L'idea alla base del progetto consiste nella realizzazione di un'applicazione web minimale, progettata per fungere da supporto e assistenza agli sviluppatori in modo efficiente e intuitivo. L'applicazione offre due principali funzionalità: la generazione di test di unità per la verifica degli script e la generazione di dati sintetici per vari usi.
 
